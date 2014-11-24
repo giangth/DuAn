@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/screen">
+        
+        <ImageButton
+	        android:id="@+id/ibtnGame1"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="50dp"
+	        android:layout_marginTop="100dp"
+	        android:src="@drawable/icon1" />
+		    
+    	<ImageButton
+	        android:id="@+id/ibtnGame2"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="100dp"
+	        android:layout_marginTop="100dp"
+	        android:layout_toRightOf="@id/ibtnGame1"
+	        android:src="@drawable/icon2" />
+
+    	<TextView
+    	    android:id="@+id/lblicon2"
+    	    android:layout_width="80dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignLeft="@+id/ibtnGame2"
+    	    android:layout_below="@+id/ibtnGame2"
+    	    android:layout_marginTop="16dp"
+    	    android:text="Games Hot"
+    	    android:textColor="#FFF" />
+
+    	<ImageButton
+    	    android:id="@+id/ibtnGame4"
+    	    android:layout_width="80dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignLeft="@+id/lblicon2"
+    	    android:layout_alignTop="@+id/ibtnGame3"
+    	    android:src="@drawable/hinh4" />
+
+    	<TextView
+    	    android:id="@+id/lblicon4"
+    	    android:layout_width="80dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignBottom="@+id/lblicon3"
+    	    android:layout_alignLeft="@+id/ibtnGame4"
+    	    android:text="BXH Games"
+    	    android:textColor="#FFF" />
+
+    	<TextView
+    	    android:id="@+id/lblicon1"
+    	    android:layout_width="100dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignBaseline="@+id/lblicon2"
+    	    android:layout_alignBottom="@+id/lblicon2"
+    	    android:layout_alignLeft="@+id/ibtnGame1"
+    	    android:text="Bản Tin Games"
+    	    android:textColor="#FFF" />
+
+    	<TextView
+    	    android:id="@+id/lblicon3"
+    	    android:layout_width="120dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignLeft="@+id/ibtnGame3"
+    	    android:layout_below="@+id/ibtnGame3"
+    	    android:layout_marginTop="14dp"
+    	    android:text="Games Download"
+    	    android:textColor="#FFF" />
+
+    	<ImageButton
+    	    android:id="@+id/ibtnGame3"
+    	    android:layout_width="80dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_below="@+id/lblicon1"
+    	    android:layout_marginTop="51dp"
+    	    android:layout_toLeftOf="@+id/ibtnGame2"
+    	    android:src="@drawable/icon4" />
+
+</RelativeLayout>
